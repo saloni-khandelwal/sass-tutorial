@@ -1,0 +1,23 @@
+CSS with Superpowers
+Uses language SCSS
+Compile with VS Code extention Live Sass Compiler - it will create a file with compiles scss code to pure CSS
+
+- Variables: Define variables with $. Compiled CSS file will have actual values
+
+- Maps: Maps are property value pairs, you define a map and you can get the value through the name you define in the map
+
+- Define nested formatting: Basically what we achieve with child and descendent selectors, you do that without having to worry about selectors - you do it in folder format
+
+- Partial SCSS: Create _name.scss files which the compiler understands to be partial and does not compile as css files. They can be @import into regular files. Help modularise code and work on individual components.
+
+- Functions: @function func_name ($var_name) {  @return map-get ()} Takes variables and returns values.
+
+- Mixins: Are like functions. You basically set a name for a piece of code that you have to reuse again and again. Basically rather than creating a class and reusing it in HTML, you create a mixin and reuse it in css itself. Mix- IFin defines styles.
+
+- Can use 'if' statements in mixin
+
+- Extend: You can extend or copy the properties of one class to another, then change a couple of things
+
+- Operations: You can directly use operations like + / - / multiply, like calc() in css.
+
+
